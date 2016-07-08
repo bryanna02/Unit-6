@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+	  <title>Random Number</title>
+   </head>
+   <body>
+      <h1>Get a random number</h1>      
+      <p id="demo"></p>
+   <script>
+      var max = parseInt(prompt("Enter a number"));
+      var min = parseInt(prompt("Enter another number"));
+
+      function getRandomizer(min, max) {
+         return function() {
+            return Math.floor( Math.random() * (max - min + 1)) + min;
+  }
+}
+
+var randNumber = getRandomizer(min, max);
+
+document.write(randNumber());
+   </script>
+   </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+	  <title>Average</title>
+   </head>
+   <body>
+      <h1>Get the average of a set of numbers in an array</h1>      
+      
+   <script>
+   var array = [9, 8, 7, 6, 5, 3, 2];
+      var avg = function (a) {
+    var result = 0;
+    for (var i = 0; i < array.length; i += 1) {
+        result += array[i] / array.length;
+    }
+    return result; 
+};
+
+
+document.writeln(avg())
+   </script>
+   </body>
+</html>

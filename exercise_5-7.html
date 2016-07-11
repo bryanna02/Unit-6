@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "UTF-8"/>
+	  <title>Exercise 5-7</title>
+   </head>
+   <body>
+      <h1>Count the number of zeros</h1>
+	  <script>
+	  var array = [];
+
+         function numberOfZeros(array) {
+         count = 0;
+         for (var i = 0, j = array.length; i < j; i++) {
+         (array[i] === 0) && count++;
+    }
+        return count;
+};
+
+alert(numberOfZeros([0,0,9,9,9,9]));
+	  </script>
+   </body>
+</html>

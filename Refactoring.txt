@@ -1,0 +1,10 @@
+Bryanna Miles
+Exercise 5-14
+Due Date: July 10, 2016
+
+
+Refatoring is a way to change or alter an existing body of code without changing
+the external behavior. Refactoring does little, but can eventually significally
+restructure the code. Also it is less likely for serious damage to occur because
+it is usually done in small increments. It changes the internal structure, but 
+functions the same externally after the "refactoring".
